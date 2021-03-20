@@ -72,6 +72,11 @@ body {
 
 .box-content .box-description {
     height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: baseline;
 }
 
 .box-content .box-description h1 {
@@ -91,48 +96,55 @@ body {
 
 .box-control {
     position: absolute;
-    bottom: 4rem;
+    bottom: 3rem;
     left: 50%;
-    margin-left: -25%;
-
-    width: 50%;
+    width: 30%;
     height: 10rem;
+    margin-left: -15%;
+
     background-color: #000000;
     opacity: 0.5;
     border-radius: 6rem;
+    overflow: hidden;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-button + button {
-    margin-left: 3rem;
+.box-control .bar-control {
+    width: 100%;
+    height: 40%;
+    padding: 0 5rem;
 }
 
-.box-control #volume {
-    margin: 0;
-    position: absolute;
-    right: 25px;
+.box-control .bar-buttons {
+    width: 100%;
+    height: 60%;
+    padding: 0 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-
-.box-control button,
-.box-control button:focus {
-    width: 8rem;
-    height: 8rem;
+.box-control .bar-buttons button {
+    width: 4rem;
+    height: 4rem;
 
     background: none;
     border: none;
     cursor: pointer;
 }
 
-
 .box-control button:focus {
     outline: none;
+    box-shadow: 0;
+    border: none;
 }
 
-.box-control button img {
+.box-control .bar-buttons button img {
     width: 100%;
     height: 100%;
 }
@@ -145,6 +157,10 @@ button + button {
 }
 
 @media (max-width: 1000px) {
+    .box-content .box-description {
+        justify-content: center;
+    }
+
     .box-content .box-description h1 {
         font-size: 4rem;
     }
