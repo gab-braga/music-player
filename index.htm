@@ -6,7 +6,10 @@
     <title>Music Player</title>
 
     <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/animate.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/headphone-icon.svg">
 
 </head>
 <body onmousemove="show_box_control()">
@@ -15,24 +18,24 @@
     <div class="box-aux-responsive">
         <div class="box-content">
             <div class="box-description">
-                <h1>Disco Voador</h1>
-                <span>Ricardo RD</span>
+                <h1 id="name_music"></h1>
+                <span id="name_author"></span>
             </div>
-            <img src="./images/disco-voador.png" alt="Disco Voador">
+            <img src="" class="animate-skip" id="image_music">
         </div>
     </div>
     <div class="box-control" style="display: none;">
         <div class="bar-control">
-            <input id="bar-play" type="range" min="0" max="100" value="0" onchange="ChangeDuration()">
+            <input id="bar-play" type="range" min="0" max="100" value="0" onchange="move_play_point()">
         </div>
         <div class="bar-buttons">
-            <button id="previous">
+            <button onclick="return_music()" id="return">
                 <img src="./images/previous.svg" alt="Anterior">
             </button>
-            <button id="pause">
-                <img src="./images/play.svg" alt="Play">
+            <button onclick="play_and_pause()">
+                <img src="./images/play.svg" id="play_pause" alt="Tocar e Pausar">
             </button>
-            <button id="next">
+            <button onclick="next_music()" id="next">
                 <img src="./images/next.svg" alt="Próxima">
             </button>
         </div>

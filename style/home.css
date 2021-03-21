@@ -21,7 +21,7 @@ body {
     min-width: 100vw;
 }
 
-.box-background:before {
+.box-background {
     content: "";
     position: fixed;
     left: 0;
@@ -30,7 +30,7 @@ body {
   
     display: block;
     height: 100%;
-    background-image: url("../images/disco-voador.png");
+    background-image: url("../images/music-images/brook.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -162,15 +162,15 @@ body {
 }
 
 @media (orientation: portrait) {
-    .box-background:before {
+    .box-background {
         background-size: auto 100%;
     }
 }
 
 @media (min-width: 1400px) {
-    .box-content {
+    .box-aux-responsive {
         width: 1300px;
-        margin: 0 auto;
+        margin: -20rem 0 0 -650px;
     }
 }
 
@@ -244,6 +244,6 @@ body {
 
 @media (max-height: 830px) {
     .box-aux-responsive {
-        top: 45%;
+        margin-top: 45%;
     }
 }
