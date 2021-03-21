@@ -1,0 +1,12 @@
+@keyframes show-box-control {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    50% { opacity: 0.5; }
+    100% { opacity: 0; }
+}
+
+.animate-show-box-control:hover {
+    animation-name: show-box-control;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}

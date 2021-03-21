@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body onmousemove="show_box_control()">
     <div class="box-background">
     </div>
     <div class="box-aux-responsive">
@@ -21,16 +21,16 @@
             <img src="./images/disco-voador.png" alt="Disco Voador">
         </div>
     </div>
-    <div class="box-control">
+    <div class="box-control" style="display: none;">
         <div class="bar-control">
-            
+            <input id="bar-play" type="range" min="0" max="100" value="0" onchange="ChangeDuration()">
         </div>
         <div class="bar-buttons">
             <button id="previous">
                 <img src="./images/previous.svg" alt="Anterior">
             </button>
             <button id="pause">
-                <img src="./images/pause.svg" alt="Pause">
+                <img src="./images/play.svg" alt="Play">
             </button>
             <button id="next">
                 <img src="./images/next.svg" alt="Próxima">
