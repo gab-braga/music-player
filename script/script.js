@@ -39,7 +39,7 @@ const musics = [
 	{
 		name_music: "We are!",
 		name_author: "One Piece",
-		image_music: "./images/music-images/one_piece.jpg",
+		image_music: "./images/music-images/one_piece_.jpg",
 		path: "./music/One_Piece_We_Are.mp3"
 	},
 	{
