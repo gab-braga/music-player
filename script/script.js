@@ -37,10 +37,10 @@ let music = document.createElement('audio')
 
 const musics = [
 	{
-		name_music: "Disco Voador",
-		name_author: "Ricardo RD",
-		image_music: "./images/music-images/disco-voador.png",
-		path: "./music/RicardoRD_Disco_Voador.mp3"
+		name_music: "We are!",
+		name_author: "One Piece",
+		image_music: "./images/music-images/one_piece.jpg",
+		path: "./music/One_Piece_We_Are.mp3"
 	},
 	{
 		name_music: "Bink's Sake",
@@ -59,12 +59,6 @@ const musics = [
 		name_author: "Naruto Shippuden - Yamazaru",
 		image_music: "./images/music-images/naruto-shippuden-17.jpg",
 		path: "./music/Naruto_Shippuden_Kaze_Wind_Yamazaru.mp3"
-	},
-	{
-		name_music: "We are!",
-		name_author: "One Piece",
-		image_music: "./images/music-images/one_piece.jpg",
-		path: "./music/One_Piece_We_Are.mp3"
 	},
 	{
 		name_music: "Dragon Ball Z - 1° Abertura",

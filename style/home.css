@@ -129,6 +129,7 @@ body {
 }
 .box-control #bar-play {
     width: 100%;
+    cursor: pointer;
 }
 
 .box-control .bar-buttons {
@@ -159,91 +160,4 @@ body {
 .box-control .bar-buttons button img {
     width: 100%;
     height: 100%;
-}
-
-@media (orientation: portrait) {
-    .box-background {
-        background-size: auto 100%;
-    }
-}
-
-@media (min-width: 1400px) {
-    .box-aux-responsive {
-        width: 1300px;
-        margin: -20rem 0 0 -650px;
-    }
-}
-
-@media (max-width: 1000px) {
-    .box-aux-responsive {
-        height: 30rem;
-    }
-
-    .box-content .box-description {
-        height: 30rem;
-    }
-
-    .box-content img {
-        width: 30rem;
-        height: 30rem;
-    }
-
-    .box-content .box-description h1 {
-        font-size: 4rem;
-    }
-
-    .box-content .box-description span {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 730px) {
-    .box-aux-responsive {
-        height: 46rem;
-        
-        margin: -23rem 0 0 -40%;
-    }
-
-    .box-content {
-        padding: 4rem 0;
-        flex-direction: column;
-    }
-}
-
-@media (min-height: 750px) and (orientation: portrait) {
-    .box-aux-responsive {
-        height: 50rem;
-        
-        margin: -25rem 0 0 -40%;
-    }
-}
-
-@media (max-width: 500px) {
-    .box-control {
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        margin: 0;
-        border-radius: 0;
-    }
-}
-
-@media (max-width: 600px) {
-    .box-content img {
-        width: 27rem;
-        height: 27rem;
-    }
-}
-
-@media (max-width: 440px) {
-    .box-content img {
-        width: 24rem;
-        height: 24rem;
-    }
-}
-
-@media (max-height: 830px) {
-    .box-aux-responsive {
-        margin-top: 45%;
-    }
 }
