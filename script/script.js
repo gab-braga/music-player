@@ -40,13 +40,49 @@ const musics = [
 		name_music: "Disco Voador",
 		name_author: "Ricardo RD",
 		image_music: "./images/music-images/disco-voador.png",
-		path: "./music/BinksSake.mp3"
+		path: "./music/RicardoRD_Disco_Voador.mp3"
 	},
 	{
 		name_music: "Bink's Sake",
 		name_author: "Brook",
 		image_music: "./images/music-images/brook.jpg",
 		path: "./music/BinksSake.mp3"
+	},
+	{
+		name_music: "Blue Bird",
+		name_author: "Naruto Shippuden - Yoshiki Mizuno",
+		image_music: "./images/music-images/naruto-shippuden-blue-bird.jpg",
+		path: "./music/naruto-shippuden-blue-bird.mp3"
+	},
+	{
+		name_music: "Kaze Wind Yamazaru",
+		name_author: "Naruto Shippuden - Yamazaru",
+		image_music: "./images/music-images/naruto-shippuden-17.jpg",
+		path: "./music/Naruto_Shippuden_Kaze_Wind_Yamazaru.mp3"
+	},
+	{
+		name_music: "We are!",
+		name_author: "One Piece",
+		image_music: "./images/music-images/one_piece.jpg",
+		path: "./music/One_Piece_We_Are.mp3"
+	},
+	{
+		name_music: "Dragon Ball Z - 1° Abertura",
+		name_author: "Dragon Ball Z",
+		image_music: "./images/music-images/dragon-ball-z-1.jpg",
+		path: "./music/Dragon_Ball_Z_Abertura_1.mp3"
+	},
+	{
+		name_music: "Dragon Ball Z - 2° Abertura",
+		name_author: "Dragon Ball Z",
+		image_music: "./images/music-images/dragon-ball-z-2.jpg",
+		path: "./music/Dragon_Ball_Z_Abertura_2.mp3"
+	},
+	{
+		name_music: "Attack on Titan",
+		name_author: "Attack on Titan",
+		image_music: "./images/music-images/Attack_on_Titan.jpg",
+		path: "./music/Attack_On_Titan_2.mp3"
 	}
 ];
 
