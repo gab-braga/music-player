@@ -6,7 +6,7 @@ Ele reproduz uma lista de músicas continuamente, lá você vai poder tocar, pau
 A ideia surgiu por inspiração de um projeto de design de [Wesley](https://github.com/w-nobre), meu amigo.
 Music Player foi baseado também por outro projeto, um reprodutor de música ([veja aqui](https://github.com/Rfontt/PlayerMusic)) criado por [Rita](https://github.com/Rfontt), minha amiga.
 Preparei uma playlist bem massa, com temática de animes.
-Você pode visualizar o projeto clicando [AQUI](https://f-gabriel-braga.github.io/fogo-DOOM/).
+Você pode visualizar o projeto clicando [AQUI](https://f-gabriel-braga.github.io/music-player/).
 
 ## Tecnologias
 * ![HTML](https://img.shields.io/badge/HTML%205-orange?style=for-the-badge&logo=html5&logoColor=white)
