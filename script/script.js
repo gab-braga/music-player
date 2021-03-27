@@ -37,16 +37,34 @@ let music = document.createElement('audio')
 
 const musics = [
 	{
+		name_music: "Coração de Criança",
+		name_author: "Dragon Ball GT",
+		image_music: "./images/music-images/dragon-ball-gt.jpg",
+		path: "./music/dragon-ball-gt-abertura.mp3"
+	},
+	{
+		name_music: "Pokémon - 1° Abertura",
+		name_author: "Pokémon",
+		image_music: "./images/music-images/pokemon.jpg",
+		path: "./music/pokemon-abertura.mp3"
+	},
+	{
+		name_music: "Super Onze - 2° Abertura",
+		name_author: "Super Onze",
+		image_music: "./images/music-images/super-onze.jpg",
+		path: "./music/super-onze-abertura.mp3"
+	},
+	{
 		name_music: "We are!",
 		name_author: "One Piece",
-		image_music: "./images/music-images/one_piece_.jpg",
-		path: "./music/One_Piece_We_Are.mp3"
+		image_music: "./images/music-images/one-piece.jpg",
+		path: "./music/one-piece-we-are.mp3"
 	},
 	{
 		name_music: "Bink's Sake",
 		name_author: "Brook",
 		image_music: "./images/music-images/brook.jpg",
-		path: "./music/BinksSake.mp3"
+		path: "./music/binks-sake.mp3"
 	},
 	{
 		name_music: "Blue Bird",
@@ -55,28 +73,16 @@ const musics = [
 		path: "./music/naruto-shippuden-blue-bird.mp3"
 	},
 	{
-		name_music: "Kaze Wind Yamazaru",
-		name_author: "Naruto Shippuden - Yamazaru",
-		image_music: "./images/music-images/naruto-shippuden-17.jpg",
-		path: "./music/Naruto_Shippuden_Kaze_Wind_Yamazaru.mp3"
-	},
-	{
 		name_music: "Dragon Ball Z - 1° Abertura",
 		name_author: "Dragon Ball Z",
 		image_music: "./images/music-images/dragon-ball-z-1.jpg",
-		path: "./music/Dragon_Ball_Z_Abertura_1.mp3"
+		path: "./music/dragon-ball-z-abertura-1.mp3"
 	},
 	{
-		name_music: "Dragon Ball Z - 2° Abertura",
-		name_author: "Dragon Ball Z",
-		image_music: "./images/music-images/dragon-ball-z-2.jpg",
-		path: "./music/Dragon_Ball_Z_Abertura_2.mp3"
-	},
-	{
-		name_music: "Attack on Titan",
-		name_author: "Attack on Titan",
-		image_music: "./images/music-images/Attack_on_Titan.jpg",
-		path: "./music/Attack_On_Titan_2.mp3"
+		name_music: "Shinzou wo Sasageyo",
+		name_author: "Shingeki no Kyojin",
+		image_music: "./images/music-images/attack-on-titan.jpg",
+		path: "./music/attack-on-titan-2.mp3"
 	}
 ];
 
@@ -149,5 +155,9 @@ function alter_play_point() {
 	if (!isNaN(music.duration)) {
 		position = music.currentTime * (100 / music.duration);
 		play_bar.value = position;
+		
+		if(parseInt(play_bar.value) === 100) {
+			next_music()
+		}
 	}
 }

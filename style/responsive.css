@@ -45,6 +45,11 @@
         padding: 4rem 0;
         flex-direction: column;
     }
+
+    .box-content .box-description h1,
+    .box-content .box-description span {
+        text-align: center;
+    }
 }
 
 @media (min-height: 750px) and (orientation: portrait) {

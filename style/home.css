@@ -92,6 +92,7 @@ body {
 .box-content .box-description span {
     font-weight: 100;
     font-size: 3rem;
+    width: 100%;
 }
 
 .box-content img {
