@@ -43,16 +43,16 @@ const musics = [
 		path: "./music/dragon-ball-gt-abertura.mp3"
 	},
 	{
-		name_music: "Pokémon - 1° Abertura",
+		name_music: "Blue Bird",
+		name_author: "Naruto Shippuden",
+		image_music: "./images/music-images/naruto-shippuden-blue-bird.jpg",
+		path: "./music/naruto-shippuden-blue-bird.mp3"
+	},
+	{
+		name_music: "Pokémon",
 		name_author: "Pokémon",
 		image_music: "./images/music-images/pokemon.jpg",
 		path: "./music/pokemon-abertura.mp3"
-	},
-	{
-		name_music: "Super Onze - 2° Abertura",
-		name_author: "Super Onze",
-		image_music: "./images/music-images/super-onze.jpg",
-		path: "./music/super-onze-abertura.mp3"
 	},
 	{
 		name_music: "We are!",
@@ -61,28 +61,22 @@ const musics = [
 		path: "./music/one-piece-we-are.mp3"
 	},
 	{
+		name_music: "Shinzou wo Sasageyo",
+		name_author: "Shingeki no Kyojin",
+		image_music: "./images/music-images/attack-on-titan.jpg",
+		path: "./music/attack-on-titan-2.mp3"
+	},
+	{
 		name_music: "Bink's Sake",
 		name_author: "Brook",
 		image_music: "./images/music-images/brook.jpg",
 		path: "./music/binks-sake.mp3"
 	},
 	{
-		name_music: "Blue Bird",
-		name_author: "Naruto Shippuden - Yoshiki Mizuno",
-		image_music: "./images/music-images/naruto-shippuden-blue-bird.jpg",
-		path: "./music/naruto-shippuden-blue-bird.mp3"
-	},
-	{
-		name_music: "Dragon Ball Z - 1° Abertura",
+		name_music: "Dragon Ball Z",
 		name_author: "Dragon Ball Z",
 		image_music: "./images/music-images/dragon-ball-z-1.jpg",
 		path: "./music/dragon-ball-z-abertura-1.mp3"
-	},
-	{
-		name_music: "Shinzou wo Sasageyo",
-		name_author: "Shingeki no Kyojin",
-		image_music: "./images/music-images/attack-on-titan.jpg",
-		path: "./music/attack-on-titan-2.mp3"
 	}
 ];
 
