@@ -1,0 +1,19 @@
+{
+  "name": "music-player",
+  "description": "Music Player é um software reprodutor de música de código aberto, desenvolvido por Gabriel Braga.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "http-server -p 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

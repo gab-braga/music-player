@@ -10,37 +10,37 @@
     <link rel="stylesheet" href="./style/animate.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
-    <link rel="icon" href="./images/headphone-icon.svg">
+    <link rel="icon" href="./assets/icons/headphone-icon.svg">
 </head>
-<body onmousemove="show_box_control()">
+<body>
     <div class="box-background">
     </div>
     <div class="box-aux-responsive">
         <div class="box-content">
             <div class="box-description">
-                <h1 id="name_music"></h1>
-                <span id="name_author"></span>
+                <h1 id="name-music"></h1>
+                <span id="name-author"></span>
             </div>
-            <img src="" class="animate-skip" id="image_music">
+            <img src="" class="animate-skip" id="image-music">
         </div>
     </div>
     <div class="box-control" style="display: none;">
         <div class="bar-control">
-            <input id="bar-play" type="range" min="0" max="100" value="0" onchange="move_play_point()">
+            <input id="bar-play" type="range" min="0" max="100" value="0">
         </div>
         <div class="bar-buttons">
-            <button onclick="return_music()" id="return">
-                <img src="./images/previous.svg" alt="Anterior">
+            <button id="return">
+                <img src="./assets/icons/previous.svg" alt="Anterior">
             </button>
-            <button onclick="play_and_pause()">
-                <img src="./images/play.svg" id="play_pause" alt="Tocar e Pausar">
+            <button id="btn-play-pause">
+                <img src="./assets/icons/play.svg" id="play-pause" alt="Tocar e Pausar">
             </button>
-            <button onclick="next_music()" id="next">
-                <img src="./images/next.svg" alt="Próxima">
+            <button id="next">
+                <img src="./assets/icons/next.svg" alt="Próxima">
             </button>
         </div>
     </div>
 
-    <script src="./script/script.js"></script>
+    <script defer type="module" src="./dist/controller.js"></script>
 </body>
 </html>
