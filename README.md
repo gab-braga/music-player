@@ -9,6 +9,7 @@ Preparei uma playlist bem massa, com temática de animes.
 Você pode visualizar o projeto clicando [AQUI](https://f-gabriel-braga.github.io/music-player/).
 
 ## Tecnologias
+* ![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white)
 * ![HTML](https://img.shields.io/badge/HTML%205-orange?style=for-the-badge&logo=html5&logoColor=white)
 * ![CSS](https://img.shields.io/badge/CSS%203-blue?style=for-the-badge&logo=css3&logoColor=white)
 * ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white)
