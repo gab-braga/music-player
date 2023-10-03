@@ -57,14 +57,14 @@ loadMusic(indexMusic)
 function playMusic(): void {
 	music.play();
 	isPlayingMusic = true;
-	playPause.src = "./images/pause.svg"
+	playPause.src = "./assets/icons/pause.svg"
 	image.style.animationDuration = '1s'
 }
 
 function pauseMusic(): void {
 	music.pause();
 	isPlayingMusic = false;
-	playPause.src = "./images/play.svg"
+	playPause.src = "./assets/icons/play.svg"
 	image.style.animationDuration = '0s'
 }
 
